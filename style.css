@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    background-image: url('./img1.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+input {
+    border: 0;
+    border-radius: .8em;
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(168, 168, 168);
+    text-align: center;
+    width: fit-content;
+    padding: .8em;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.submit {
+    background-color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1em;
+    width: fit-content;
+    padding: 1em 2em;
+    border: 0;
+    border-radius: .5em;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.timer {
+    display: flex;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+
+.timer span {
+    font-size: 1rem;
+}
+
+.noshow {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
