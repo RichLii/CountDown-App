@@ -2,4 +2,4 @@
 
 # DEMO
 
-https://richlii.github.io/CountDown_App/
+https://richlii.github.io/CountDown-App/
